@@ -1,44 +1,150 @@
 body {
-  background-color: aquamarine;
-  font: 1em sans-serif;
-}
-
-.container_life{
-  width: 500px;
+  background-color: #aad4cf;
+  font-family: sans-serif;
   margin: 0 auto;
 }
-img{
-  width: 100px;
+div,ul,li,h1,p{
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.container_all{
+width: 1024px;
+margin: 0 auto;
+height: auto;
+background-color: #d4e9e7;
+overflow: hidden;
+}
+.container_top{
+  height: 341px;
+  background: url(../midterm-assets/lone-starfish-wide.jpg);
+}
+.container_top p{
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  padding-top: 197px;
+}
+.container_nav{
+  height: 46px;
+  padding: 2px 0px;
+  margin-bottom: 25px;
+}
+.container_nav ul li{
+  width: 340px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  border-right: 1px solid #000000;
+  text-align: center;
+  float: left;
+  list-style: none;
+}
+.container_nav ul li a{
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+.borr0{
+  border-right: none !important;
+}
+.container_life{
+  height: 420px;
+  padding: 0px 10px;
+}
+.container_life h1{
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 36px;
+}
+.container_life img{
+  width: 250px;
+  height: 257px;
+  margin-right: 20px;
+  margin-bottom: 30px;
   float: left;
 }
-
-
+.container_life p{
+  line-height: 23px;
+  font-size: 16px;
+}
+.container_facts{
+  height: 135px;
+  padding: 0px 10px;
+}
+.container_facts h1{
+  height: 45px;
+  line-height: 45px;
+  font-size: 26px;
+  font-weight: normal;
+}
+.container_facts ul li{
+  line-height: 18px;
+  font-size: 16px;
+  list-style: none;
+}
+.container_facts ul li span{
+  padding-right: 5px;
+}
+.container_cont{
+  height: 527px;
+  padding: 0px 10px;
+}
+.container_cont h1{
+  height: 45px;
+  line-height: 45px;
+  font-size: 26px;
+  font-weight: normal;
+}
+.container_contact {
+  height: 420px;
+  padding: 10px;
+  border: 1px solid #000000;
+  padding-top: 30px;
+}
+label{
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  height: 30px;
+  line-height: 30px;
   border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+   margin-bottom:10px;
 }
-
+.container_contact h1{
+  height: 45px;
+  line-height: 45px;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  width: 56px;
+  height: 37px;
+  line-height: 35px;
+  background: none;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #000000;
 }
-
-input[type=submit]:hover {
-  background-color: #45a049;
+.xuanx{
+  margin-bottom:15px ;
 }
-
-.container_contact {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.banq{
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  margin: 0px 10px;
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom:25px;
 }

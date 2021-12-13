@@ -55,18 +55,185 @@
         body {
             background: white;
             font-family: 'Open Sans', sans-serif;
+            width: 706px;
+            margin: 0px auto;
+        } 
+        h1 {
+            font-size: 71px;
+            line-height: 98px;
+            font-weight: bold;
+        }
+        h2{
+            font-size: 48px;
+            line-height: 48px;
+            font-weight: bold;
+        }
+        h3{
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: bold;
+        }
+        p{
+            size: 14px;
+            line-height: 21px;
+        }
+        button{
+            color: #fff;
+            background-color: #000;
+            padding: 30px;
+            margin: 14px;
+            display: inline-block;
+            outline-style: none;
+            border: none;
         }
 
         .container {
             width: 100%;
             margin: 0 auto;
         }
-
+        /*---- header ----*/
         header {
             background: #222222;
             color: #c58b22;
             padding: 14px; 
         }
+        nav{
+            width: 100%;
+        }
+        .nav_img{
+            display: block;
+            background-color: #D28800;
+            
+        }
+        /*---- banner ----*/
+        .container_ban{
+            background-image: url("../images/main-banner.jpg");
+            background-color: #ffe6ac;
+            height: 600px;
+            background-position: center;
+            background-size: cover;
+        }
+        .container_banner{
+            background-color: #222222a1;
+            transform: translateY(80px);
+        }
+        
+        /*---- about us ----*/
+        .About_US{
+            background-color: #ffe6ac;  
+        }
+        .container_ab{
+            padding: 15px;
+        }
+        .container_ab img{
+            width: 100%;
+        }
+        .container_ab p{
+            padding: 10px 0px;
+        }
+        .os_h_2{
+            padding-top: 30px;
+            padding-left: 14px;
+        }
+         
+        /*---- our services ----*/
+        .container_os{
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 14px;
+        }
+
+         .layout_R{
+            background-color: #ffe6ac;
+            padding: 14px;
+        }
+        .layout_R img{
+            width: 100%;
+        }
+
+         /*---- our vision ----*/
+         .ourvison_BG .OV_container_text{
+            background-image: url("../images/vision.jpg");
+            background-size: cover;
+            background-position: center;
+            margin-top: 28px;
+            
+        }
+        .OV_container_text{
+            padding: 14px;
+            color: #fff;
+        }
+        /*---- our team ----*/
+        .teamheading{
+            padding-top: 30px;
+            padding-left: 14px;
+        }
+        .container_tm{
+            display: flex;
+            flex-direction: column;
+            margin-top: 14px;
+        }
+
+        .container_tm img{
+            width: 100%;
+        }
+
+        .container_tm .block:nth-child(2n+1){
+            background-color: #ffe6ac;
+            padding: 14px;
+            margin-bottom: 15px;
+        }
+
+        .container_tm hr{
+            border: none;
+            background-color: #c78c06;
+            height: 2px;
+        }
+         /*---- contact us ----*/
+         .container_con{
+            display: flex;
+            flex-direction: column;
+            margin-top: 14px;
+            padding: 14px;
+         }
+         .container_con h2{
+            padding-top: 30px;
+          
+         }
+
+   
+         form{
+             width: 100%;
+         }
+         iframe{
+             width: 100%;
+         }
+
+         table{
+             width: 100%;
+         }
+        
+         table, td, th{
+            font-size: 14px;
+            border: 1px solid ;
+            padding: 14px;
+        }
+         table .table_head{
+            font-weight: bold;
+            background-color: #ffe6ac;
+            text-align: center;
+            
+        }
+        
+
+         /*---- footer ----*/
+         .container_foot{
+             background-color: black;
+             padding: 14px;
+             color: #c78c06;
+         }
+
+
 
         /* ==== This just sets the width for accuracy to the mock-up ==== */
         /* Don't put anything else in this media query! */
@@ -80,7 +247,53 @@
         /* ==== DESKTOP STYLES ==== */
 
         @media screen and (min-width: 1200px){
+        
             .container {
                 width: 1200px;
             }
         }
+        h1{
+            font-size: 81px;
+            line-height: 112px;
+            font-weight: bold;
+        }
+        h2{
+            font-size: 54px;
+            font-weight: bold;
+        }
+        h3{
+            font-size: 36px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+        }
+         /*---- about us ----*/
+         .About_US{
+            
+         }
+         /*---- our services ----*/
+
+         .container_os{
+             display: grid;
+             grid-template-columns: repeat(5,1fr);
+             column-gap: 14px;
+             row-gap: 14px;
+         }
+  
+         .container_os .layout_R :nth-last-child(2){
+            grid-column: 1/3;
+         }
+         .container_os .layout_R :nth-last-child(3){
+            grid-column: 3/5;
+         }
+         .container_os .layout_R :nth-last-child(4){
+            grid-column: 1/2;
+         }
+         .container_os .layout_R :nth-last-child(5){
+            grid-column: 2/4;
+         }
+         .container_os .layout_R :nth-last-child(6){
+            grid-column: 4/5;
+         }

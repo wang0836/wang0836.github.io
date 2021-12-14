@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +9,9 @@
     <title>Final project_ZW</title>
 </head>
 <body>
-    <!----------------------------------------------->  
-    <!------------------ header ---------------------> 
-    <!----------------------------------------------->  
+    <!--===========================================-->  
+    <!--================ header ===================--> 
+    <!--===========================================-->  
     <header>   
         <div class="container_nav">
             <nav>
@@ -19,7 +19,7 @@
                 <img src="images/logo.png" alt="logo" > 
                 </div>
                 <ul class="nav_list">
-                    <li><a href="#">Home</a></li>
+                    <li><a  class="active" href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
@@ -28,7 +28,7 @@
             </nav>        
             <form class="search_1">
                 <input type="text" placeholder="search">
-                <button type="submit"><i class="fas fa-search"></i></button>  
+                <button class="searchbutton" type="submit"><i class="fas fa-search"></i></button>  
             </form>
         </div>   
     
@@ -41,176 +41,179 @@
             </div>        
         </div>
     </header>
-      <!-----------------------------------------------> 
-      <!--------------------  main  -------------------> 
-      <!----------------------------------------------->  
+      
+      <!--===========================================--> 
+      <!--==================  main  =================--> 
+      <!--===========================================-->  
     <main> 
         <div class="container"> 
-    <!---------------------- about us ---------------------->  
-            <section class="About_US">       
-                <div class="container_ab"> 
-                    <img src="images/about-us.jpg" alt="About_US111" >
-                    <h2 class="">About Us</h2>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ad earum assumenda, eaque non minima culpa! Sit unde iusto eligendi temporibus! Voluptatum dolores odit, nostrum necessitatibus nobis culpa facilis sit.</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ad earum assumenda, eaque non minima culpa! Sit unde iusto eligendi temporibus! Voluptatum dolores odit, nostrum necessitatibus nobis culpa facilis sit.</p>
-                </div>             
+            <!--= about us =-->  
+                <section class="About_US">       
+                    <div class="container_ab"> 
+                        <img src="images/about-us.jpg" alt="About_US111" >
+                        <h2 class="">About Us</h2>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ad earum assumenda, eaque non minima culpa! Sit unde iusto eligendi temporibus! Voluptatum dolores odit, nostrum necessitatibus nobis culpa facilis sit.</p>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ad earum assumenda, eaque non minima culpa! Sit unde iusto eligendi temporibus! Voluptatum dolores odit, nostrum necessitatibus nobis culpa facilis sit.</p>
+                    </div>             
+                </section>
+            <!--= Our services =-->  
+                <section class="container_os_all">
+                    <div class="container_os services_1">
+                        <div class="container_os os_h_2">
+                            <h2>Our Services</h2>
+                        </div>  
+                    
+                        <div class="container_os layout_R">                  
+                            <img src="images/digital.jpg" alt="DT" >                       
+                            <div class="container_os text_os">
+                                <h3>Digital Transformation</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
+                                <button class="os_bt1" type="button" onclick="">Digital Plans <span class="os_icon_right">&#9654;</span> </button>          
+                            </div>
+                        </div>
+
+                        
+                        <div class="container_os layout_R">              
+                                <img src="images/marketing.jpg" alt="MT" >                       
+                            <div class="container_os text_os">
+                                <h3>Marketing</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
+                                <button class="os_bt1" type="button" onclick="">Marketing Plans <span class="os_icon_right">&#9654;</span> </button>          
+                            </div>
+                        </div>
+
+                        
+                        <div class="container_os layout_R">              
+                            <img src="images/video.jpg" alt="VP" >
+                            <div class="container_os text_os">
+                                <h3 >Video Production</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
+                                <button class="os_bt1" type="button" onclick="">Video Plans <span class="os_icon_right">&#9654;</span> </button>          
+                            </div>
+                        </div>
+
+                        
+                        <div class="container_os layout_R">                
+                            <img src="images/web.jpg" alt="WD" >                    
+                            <div class="container_os text_os">
+                                <h3 >Web Development</h3>
+                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
+                                <button class="os_bt1" type="button" onclick="">Web Plans <span class="os_icon_right">&#9654;</span> </button>          
+                            </div>
+                        </div>
+    
+                        
+                        <div class="container_os layout_R">
+                            <img src="images/print.jpg" alt="PT" >
+                            <div class="container_os text_os">
+                                <h3 >Print</h3>
+                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
+                                <button class="os_bt1" type="button" onclick="">Print Plans <span class="os_icon_right">&#9654;</span> </button>          
+                            </div>
+                        </div>   
+                    </div>
+                </section>
+            <!--= Our vision =-->     
+                <!-- <section class="ourvison"> -->
+                    <div class="ourvison_BG">
+                        <!-- <img src="images/vision.jpg" alt="ourvison_1"> -->
+                        <div class="OV_container_text">
+                            <h2 >Our Vision</h2>
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat natus consequuntur inventore asperiores, animi fugiat velit dolore vero amet consequatur cum mollitia voluptatem molestiae odit dolorem quam iusto excepturi!</p>
+                            <button class="OV_bt1" type="button" onclick="">Learn More <span class="OV_icon_right">&#9654;</span> </button>
+                        </div>
+                    </div>
+                <!-- </section>end Vision -->
+
+            <!--= Our ourteam =-->
+                <section class="ourteam">
+                    <div class="container_tm">
+                        <div class="teamheading">
+                        <h2>Our Team</h2>
+                        </div>
+                        
+                        <div class="block">
+                            <img src="images/john.jpg" alt="john">
+                        </div>  
+
+                        <div class="block">  
+                            <h3>John Doe</h3>
+                            <h4>CEO and Co-owner</h4>
+                            <hr /> 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, vero laudantium id voluptatibus totam sit sapiente fugit quisquam doloribus possimus consequatur soluta accusamus alias pariatur, iure quo illo tempore repellendus?</p>
+                        </div>                      
+
+                        <div class="block">
+                            <img src="images/bob.jpg" alt="bob">
+                        </div>
+
+                        <div class="block">
+                            <h3 >Bob Rite</h3>
+                            <h4>CFO and Co-owner</h4>
+                            <hr /> 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, vero laudantium id voluptatibus totam sit sapiente fugit quisquam doloribus possimus consequatur soluta accusamus alias pariatur, iure quo illo tempore repellendus?</p>
+                        </div>
+
+                    </div>
+                </section>
+
+            <!--= contactus =-->  
+            <section class="sec_container">
+
+            
+                    <div class="container_con">
+                        <div class="conheading">
+                            <h2>contact us</h2>
+                        </div>
+                        <div class="block"> 
+                            <h3>send us a message</h3>
+                            <form action="/action_page.php">
+                                <label for="fname">Full Name</label><br>
+                                <input type="text" id="fname" name="firstname" placeholder=""><br>
+                                <label for="lname">Email</label><br>
+                                <input type="text" id="lname" name="lastname" placeholder=""><br>   
+                                <label for="subject">Message</label><br>
+                                <textarea id="subject" name="subject" placeholder="" style="height:100px"></textarea><br>   
+                                <input class="con_send" type="submit" value="Send"><br>
+                            </form>
+                        </div>
+    
+                        <div class="block"> 
+                            <h3>Location</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5607.778396487187!2d-75.75560610000005!3d45.35104890000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-CN!2sca!4v1637945153813!5m2!1szh-CN!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+    
+                        <div class="block">
+                            <h3>Hours of operation</h3>
+                            <table>
+                                <tr class="table_head">
+                                    <td>Days</td>
+                                    <td>Hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Monday-Friday</td>
+                                    <td>9AM-6AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday-Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </table>
+                        </div>
+                    
+                    </div>
             </section>
-    <!--------------------- Our services -------------------->  
-            <section class="container_os">
-               
-                    <div class="container_os os_h_2">
-                        <h2>Our Services</h2>
-                    </div>  
-                   
-                    <div class="container_os layout_R">                  
-                        <img src="images/digital.jpg" alt="DT" >                       
-                        <div class="container_os text_os">
-                            <h3>Digital Transformation</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
-                            <button class="os_bt1" type="button" onclick="">Digital Plans <span class="os_icon_right">&#9654;</span> </button>          
-                        </div>
-                    </div>
-
-                    
-                    <div class="container_os layout_R">              
-                            <img src="images/marketing.jpg" alt="MT" >                       
-                        <div class="container_os text_os">
-                            <h3>Marketing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
-                            <button class="os_bt1" type="button" onclick="">Marketing Plans <span class="os_icon_right">&#9654;</span> </button>          
-                        </div>
-                    </div>
-
-                    
-                    <div class="container_os layout_R">              
-                        <img src="images/video.jpg" alt="VP" >
-                        <div class="container_os text_os">
-                            <h3 >Video Production</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
-                            <button class="os_bt1" type="button" onclick="">Video Plans <span class="os_icon_right">&#9654;</span> </button>          
-                        </div>
-                    </div>
-
-                    
-                    <div class="layout_R">                
-                        <img src="images/web.jpg" alt="WD" >                    
-                        <div class="container_os text_os">
-                            <h3 >Web Development</h3>
-                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
-                            <button class="os_bt1" type="button" onclick="">Web Plans <span class="os_icon_right">&#9654;</span> </button>          
-                        </div>
-                    </div>
- 
-                    
-                    <div class="layout_R">
-                        <img src="images/print.jpg" alt="PT" >
-                        <div class="container_os text_os">
-                            <h3 >Print</h3>
-                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis atque eaque recusandae quas magnam reprehenderit optio officiis eligendi quam dignissimos neque voluptates deleniti quidem consectetur vel accusamus nisi totam!</p>
-                            <button class="os_bt1" type="button" onclick="">Print Plans <span class="os_icon_right">&#9654;</span> </button>          
-                        </div>
-                    </div>   
-              
-            </section>
-    <!--------------------- Our vision -------------------->     
-            <!-- <section class="ourvison"> -->
-                <div class="ourvison_BG">
-                    <!-- <img src="images/vision.jpg" alt="ourvison_1"> -->
-                    <div class="OV_container_text">
-                        <h2 >Our Vision</h2>
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat natus consequuntur inventore asperiores, animi fugiat velit dolore vero amet consequatur cum mollitia voluptatem molestiae odit dolorem quam iusto excepturi!</p>
-                        <button class="OV_bt1" type="button" onclick="">Learn More <span class="OV_icon_right">&#9654;</span> </button>
-                    </div>
-                </div>
-            <!-- </section>end Vision -->
-
-    <!--------------------- Our ourteam -------------------->
-            <section class="ourteam">
-                <div class="container_tm">
-                    <div class="teamheading">
-                    <h2>Our Team</h2>
-                    </div>
-                    
-                    <div class="block">
-                        <img src="images/john.jpg" alt="john">
-                    </div>  
-
-                    <div class="block">  
-                        <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
-                        <hr /> 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, vero laudantium id voluptatibus totam sit sapiente fugit quisquam doloribus possimus consequatur soluta accusamus alias pariatur, iure quo illo tempore repellendus?</p>
-                    </div>                      
-
-                    <div class="block">
-                        <img src="images/bob.jpg" alt="bob">
-                    </div>
-
-                    <div class="block">
-                        <h3 >Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
-                        <hr /> 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, vero laudantium id voluptatibus totam sit sapiente fugit quisquam doloribus possimus consequatur soluta accusamus alias pariatur, iure quo illo tempore repellendus?</p>
-                    </div>
-
-                </div>
-            </section><!-- end OurTeam -->
-
-    <!--------------------- contactus -------------------->  
-         
-                <div class="container_con">
-                   
-                    <h2>contact us</h2>
- 
-                    <div class="block"> 
-                        <h3>send us a message</h3>
-                        <form action="/action_page.php">
-                            <label for="fname">Full Name</label><br>
-                            <input type="text" id="fname" name="firstname" placeholder=""><br>
-                            <label for="lname">Email</label><br>
-                            <input type="text" id="lname" name="lastname" placeholder=""><br>   
-                            <label for="subject">Message</label><br>
-                            <textarea id="subject" name="subject" placeholder="" style="height:100px"></textarea><br>   
-                            <input type="submit" value="Send"><br>
-                        </form>
-                    </div>
- 
-                    <div class="block"> 
-                        <h3>Location</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5607.778396487187!2d-75.75560610000005!3d45.35104890000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-CN!2sca!4v1637945153813!5m2!1szh-CN!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
- 
-                    <div class="block">
-                        <h3>Hours of operation</h3>
-                        <table>
-                            <tr class="table_head">
-                                <td>Days</td>
-                                <td>Hours</td>
-                            </tr>
-                            <tr>
-                                <td>Monday-Friday</td>
-                                <td>9AM-6AM</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday-Sunday</td>
-                                <td>Closed</td>
-                            </tr>
-                        </table>
-                    </div>
-                
-                </div>
-
         </div>     
-    </main><!-- end main -->
-    <!----------------------------------------------->   
-    <!--------------------- footer ------------------> 
-    <!----------------------------------------------->   
+    </main>
+    <!--===========================================-->   
+    <!--=================== footer ================--> 
+    <!--===========================================-->   
     <footer>
         <div class="container_foot">
             <p>&copy;Copyright Three Star Media, 2020</p>
             <p>All images are taken from<a href="https://unsplash.com/">Unsplash</a></p>
             <P>Code by Zhi&reg;</P>
         </div>
-    </footer><!-- end foot -->    
+    </footer>    
 </body>
 </html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body> 
+  <p>hello</p>
+  <div class="container" id="top">
+    <ul class="skip-links">
+      <li><a href="#nav">skip to main nav</a></li>
+      <li><a href="#main">skip to main </a></li>
+      <li><a href="#footer">skip to footer </a></li>
+    </ul>
+   
+   
+    <header class="site-header" >
+      <h1 role="heading" itemscope itemtype="https://schema.org/Organization">
+        <span itemprop="affiliation">Jam Box Studios</span> 
+      </h1>
+      <nav id="nav" role="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="#">Studio</a></li>
+        </ul>
+      </nav>
+      <div class="images" role="banner">
+        <p class="theme">I am a cat </p> 
+      </div>
+      <!-- <img src="https://placekitten.com/1200/900" class="banner"> -->
+    </header>
+  
+  
+    <main class="main-content" id="main" role="main">
+     
+      <section class="welcome" itemscope itemtype="https://schema.org/Text">
+      <h2>Welcome to Jam Box</h2>
+        <p itemprop="description">
+          <!-- <span > -->
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.
+          <!-- </span> -->
+        </p>   
+        <p itemprop="description">
+          <!-- <span > -->
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.
+          <!-- </span> -->
+        </p>    
+      </section>
+      
+    
+      <section class="owner">
+        <h3>Meet the owner</h3>
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li itemprop="name">Name: John Doe</li>
+          <li itemprop="jobTitle">Title: CEO</li>
+          <li itemprop="email">Email: johnjoe@jambox.ca</li>
+          <li itemprop="telephone">Phone: 613-000-0000</li>
+        </ul>
+        <h3>Address</h3>
+        <p itemscope itemtype="https://schema.org/Organization">
+          <span itemprop="affiliation">Jambox Studios</span>
+          <span itemprop="address">J123 Guitar Road,Musicville, Danceistan B3T 0L0</span>
+          <!-- <span itemprop=""></span>
+          <span itemprop=""></span>   -->
+        </p>
+      </section>
+     
+      <section class="contact-section">
+        <h3>Contact Us</h3>
+      
+        <form action="processform.php" method="post">
+
+          <label for="fullname">Full name: </label>
+          <input type="text" id="fullname" name="fullname">
+
+          <label for="email">Email: </label>
+          <input type="email" id="youremail" name="youremail">
+
+          <label for="subject">Subject: </label>
+          <input type="subject" id="subject" name="subject">
+
+          <label for="message">Your Message: </label>
+          <textarea type="message" id="message" name="message"></textarea>
+          
+          <button type="submit" value="Submit">Send</button>
+        </form>
+      </section>
+    </main>
+   
+   
+    <footer class="site-footer" id="footer" role="contentinfo">
+      &copy; 2021 Jam Box Studios <a href="#top">back to top</a>
+    </footer>
+  </div>
+</body>
+
+</html>
